@@ -8,6 +8,7 @@ The C++ Console Application with LLM Integration is a lightweight program that d
 **1. Software Requirements:**
 * C++ compiler (GCC, Clang, or MSVC).
 * Optional: CMake for building the project.
+  
 **2. Dependencies:**
 * cURL library for HTTP requests.
 * JSON parser library (e.g., nlohmann/json).
