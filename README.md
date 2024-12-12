@@ -52,9 +52,9 @@ make
 Slow responses due to network latency.
 Limited API usage based on the provider's rate limits or token caps.
 # Acknowledgments
--OpenAI API for the LLM services.
--cURL for HTTP handling.
--nlohmann/json for JSON parsing.
+* OpenAI API for the LLM services.
+* cURL for HTTP handling.
+* nlohmann/json for JSON parsing.
 
 
 
