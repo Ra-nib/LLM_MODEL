@@ -12,23 +12,27 @@ The C++ Console Application with LLM Integration is a lightweight program that d
 **2. Dependencies:**
 * cURL library for HTTP requests.
 * JSON parser library (e.g., nlohmann/json).
+  
 **3. API Access:**
 * Obtain an API key from your LLM provider (e.g., OpenAI).
 # Installation and Setup:  
 **1. Clone the Repository**
 git clone <repository_url>
 cd <repository_name>
+
 **2. Install Dependencies**
 * Install cURL:
 sudo apt-get install libcurl4-openssl-dev  # For Linux
 brew install curl                         # For macOS
 * Download the nlohmann JSON library:
 wget https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp
+
 **3. Configure API Key**
 * Open the config.h file.
 * Add your API key and API endpoint:
 #define API_KEY "your_api_key_here"
 #define API_URL "https://api.openai.com/v1/completions"
+
 **4. Build the Application**
 * Using g++:
 g++ -o LLMApp main.cpp -lcurl
